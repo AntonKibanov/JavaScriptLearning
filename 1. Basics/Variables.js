@@ -3,7 +3,6 @@ let name = "Джон";
 
 admin = name;
 
-alert (admin);
-
-let ourPlanetName = "Земля";
-let currentUserName = "Патрик";
+function getAdminName() {
+  alert(admin);
+}
