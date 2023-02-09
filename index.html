@@ -4,32 +4,98 @@
 <head>
   <meta charset="utf-8">
   <title>Java Script Learning</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
   <h1 style="text-align: center;">Java Script Learning</h1>
-  <div id="block1">
-    <h2>Основы JS</h2>
-    <div><button onclick="getAlert()">I'm JavaScript!</button><script src="./1. Basics/alert.js"></script></div>
-    <p></p><div><button onclick="getAdminName()">Как зовут админа?</button><script src="./1. Basics/Variables.js"></script></div>
-    <p></p><div><button onclick="enterYourName()">Ваше имя?</button><script src="./1. Basics/alert,prompt,confirm.js"></script></div>
-    <p></p><div><button onclick="getAnswer()">Название JavaScript?</button><script src="./1. Basics/ifElse.js"></script></div>
-    <p></p><div><button onclick = "getSignNumber()">Узнай знак числа!</button><script src="./1. Basics/ifElse.js"></script></div>
-    <p></p><div><button onclick = "checkSum()">Проверь сумму</button><script src="./1. Basics/ifElse.js"></script></div>
-    <p></p><div><button onclick = "welcome()">Приветствие</button><script src="./1. Basics/ifElse.js"></script></div>
-    <p></p><div><button onclick = "checkAge()">Проверка возраста 1</button><script src="./1. Basics/logicalOperators.js"></script></div>
-    <p></p><div><button onclick = "checkAgeOutOfRange()">Проверка возраста 2</button><script src="./1. Basics/logicalOperators.js"></script></div>
-    <p></p><div><button onclick = "checkLogin()">Проверка логина</button><script src="./1. Basics/logicalOperators.js"></script></div>
-    <p></p><div><button onclick = "getEvenNumbers()">Чётные числа от 2 до 10 (for)</button><script src="./1. Basics/while-for.js"></script></div>
-    <p></p><div><button onclick = "getEvenNumbers2()">Чётные числа от 2 до 10 (while)</button><script src="./1. Basics/while-for.js"></script></div>
-    <p></p><div><button onclick = "checkNumber()">Проверка, что число больше 100(do...while)</button><script src="./1. Basics/while-for.js"></script></div>
-    <p></p><div><button onclick = "showPrimeNumber()">Простые числа</button><script src="./1. Basics/while-for.js"></script></div>
-    <p></p><div><button onclick = "getInfoAboutBrowser()">Поддержка браузера</button><script src="./1. Basics/switch-case.js"></script></div>
-    <p></p><div><button onclick = "guessNumber()">Угадаю число</button><script src="./1. Basics/switch-case.js"></script></div>
-    <p></p><div><button onclick = "getAgree()">Разрешение на просмотр</button><script src="./1. Basics/functions.js"></script></div>
-    <p></p><div><button onclick = "getMinValue()">Минимальное значение</button><script src="./1. Basics/functions.js"></script></div>
-    <p></p><div><button onclick = "getNumberInDegree()">Число в степени</button><script src="./1. Basics/functions.js"></script></div>
+  <div class="parent">
+    <div id="block1" class="inner-left">
+      <h2>Основы JS</h2>
+      <div><button onclick="getAlert()">I'm JavaScript!</button>
+        <script src="./1. Basics/alert.js"></script>
+      </div>
+      <p></p>
+      <div><button onclick="getAdminName()">Как зовут админа?</button>
+        <script src="./1. Basics/Variables.js"></script>
+      </div>
+      <p></p>
+      <div><button onclick="enterYourName()">Ваше имя?</button>
+        <script src="./1. Basics/alert,prompt,confirm.js"></script>
+      </div>
+      <p></p>
+      <div><button onclick="getAnswer()">Название JavaScript?</button>
+        <script src="./1. Basics/ifElse.js"></script>
+      </div>
+      <p></p>
+      <div><button onclick="getSignNumber()">Узнай знак числа!</button>
+        <script src="./1. Basics/ifElse.js"></script>
+      </div>
+      <p></p>
+      <div><button onclick="checkSum()">Проверь сумму</button>
+        <script src="./1. Basics/ifElse.js"></script>
+      </div>
+      <p></p>
+      <div><button onclick="welcome()">Приветствие</button>
+        <script src="./1. Basics/ifElse.js"></script>
+      </div>
+      <p></p>
+      <div><button onclick="checkAge()">Проверка возраста 1</button>
+        <script src="./1. Basics/logicalOperators.js"></script>
+      </div>
+      <p></p>
+      <div><button onclick="checkAgeOutOfRange()">Проверка возраста 2</button>
+        <script src="./1. Basics/logicalOperators.js"></script>
+      </div>
+      <p></p>
+      <div><button onclick="checkLogin()">Проверка логина</button>
+        <script src="./1. Basics/logicalOperators.js"></script>
+      </div>
+      <p></p>
+      <div><button onclick="getEvenNumbers()">Чётные числа от 2 до 10 (for)</button>
+        <script src="./1. Basics/while-for.js"></script>
+      </div>
+      <p></p>
+      <div><button onclick="getEvenNumbers2()">Чётные числа от 2 до 10 (while)</button>
+        <script src="./1. Basics/while-for.js"></script>
+      </div>
+      <p></p>
+      <div><button onclick="checkNumber()">Проверка, что число больше 100(do...while)</button>
+        <script src="./1. Basics/while-for.js"></script>
+      </div>
+      <p></p>
+      <div><button onclick="showPrimeNumber()">Простые числа</button>
+        <script src="./1. Basics/while-for.js"></script>
+      </div>
+      <p></p>
+      <div><button onclick="getInfoAboutBrowser()">Поддержка браузера</button>
+        <script src="./1. Basics/switch-case.js"></script>
+      </div>
+      <p></p>
+      <div><button onclick="guessNumber()">Угадаю число</button>
+        <script src="./1. Basics/switch-case.js"></script>
+      </div>
+      <p></p>
+      <div><button onclick="getAgree()">Разрешение на просмотр</button>
+        <script src="./1. Basics/functions.js"></script>
+      </div>
+      <p></p>
+      <div><button onclick="getMinValue()">Минимальное значение</button>
+        <script src="./1. Basics/functions.js"></script>
+      </div>
+      <p></p>
+      <div><button onclick="getNumberInDegree()">Число в степени</button>
+        <script src="./1. Basics/functions.js"></script>
+      </div>
     </div>
+    <div id="block2" class="inner-right">
+      <h2>Объекты</h2>
+      <p></p>
+      <div><button onclick="getAdminName()">1</button>
+        <script src="./1. Basics/Variables.js"></script>
+      </div>
+    </div>
+  </div>
 </body>
 
 </html>
